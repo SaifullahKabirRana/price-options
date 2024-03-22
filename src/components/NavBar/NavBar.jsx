@@ -21,7 +21,7 @@ const NavBar = () => {
                 }
 
             </div>
-            <ul className={`md:flex md:gap-4 absolute md:static bg-sky-200 px-4 py-2 rounded-xl text-black font-medium shadow-xl border border-white
+            <ul className={`md:flex md:gap-4 absolute md:static bg-sky-100 px-4 py-2 rounded-xl text-black font-medium shadow-xl border border-white
             ${open ? "top-14" : "-top-60"} duration-1000 md:justify-evenly
             `} >
                 {
